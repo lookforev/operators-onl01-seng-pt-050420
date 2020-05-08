@@ -1,10 +1,10 @@
 require 'pry'
 
 def unsafe?(speed)
-  if speed.between?(40, 60)
-    true
+  if speed > 60 || speed < 40
+    return "true"
   else
-    false
+    return "false"
  end
 end
 
