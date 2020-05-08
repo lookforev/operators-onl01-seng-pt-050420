@@ -4,7 +4,7 @@ speed = 79
 
 def unsafe?(speed)
   if speed.between?(40, 60)
-    "false"
+    "f"
   else
     "true"
  end
